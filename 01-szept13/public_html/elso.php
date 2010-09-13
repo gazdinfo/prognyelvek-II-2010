@@ -101,7 +101,7 @@
   if ($c % 2) {
     print "paratlan";
   } else {
-    print "paratos";
+    print "paros";
   }
   
   print "<br />"; // sortores beillesztese
@@ -118,5 +118,13 @@
   if ($e%2==0 && $e%3==0 && $e>500) {
     print "Paros, oszthato harommal, es nagyobb otszaznal.";
   }
+  
+  // Osszetett operatorok
+  $f = 3;
+  $f++; // pre incrementalas
+  ++$f; // post incrementalas
+  $f+=3;
+  
+  
   
 ?>
