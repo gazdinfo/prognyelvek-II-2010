@@ -9,3 +9,9 @@
 
  - SSH/PuTTY: 193.6.62.96
     jelszo: b24%KT
+
+    jelszo megvaltoztatasa: passwd paranccsal
+
+ - elso.php - phpinfo fuggveny
+ - eleres bongeszobol: 193.6.62.96/~felhasznaloneb/elso.php
+
