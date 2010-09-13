@@ -30,4 +30,18 @@
   print '$a = ' . $a . "<br />";
   
   echo "Hello Vilag!"; // print helyett echo
+  print "<br />"; // sortores beillesztese
+  
+  // gettype fuggveny
+  print gettype($a);
+  print "<br />"; // sortores beillesztese
+  
+  $b = false;
+  print gettype($b); // false erteket NEM irja ki!
+  print "<br />"; // sortores beillesztese
+  
+  $c;
+  print gettype($c); // ures valtozonal figyelmeztetest ir ki
+  print "<br />"; // sortores beillesztese
+  
 ?>
