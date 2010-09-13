@@ -68,4 +68,11 @@
   print gettype($c); // ures valtozonal figyelmeztetest ir ki
   print "<br />"; // sortores beillesztese
   
+  // var_dump fuggveny
+  $d = 42;
+  var_dump($d); // ez kiirja a typust, de nem alkalmas vizsgalatokra, mert stringet ad vissza
+  
+  // is_* fuggvenyek
+  print is_int($d); // ezzel meg lehet viysgalni, hogy egy valtozo integer-e, ugyan ez: is_bool, is_string, stbstb.
+  
 ?>
