@@ -1,3 +1,5 @@
+<meta name="content" content="text/html" charset="utf-8">
+
 <?php
   // phpinfo();
   
