@@ -15,3 +15,5 @@
  - elso.php - phpinfo fuggveny
  - eleres bongeszobol: 193.6.62.96/~felhasznaloneb/elso.php
 
+ - valtozok nevei: ne kezdodjon szammal!!!
+

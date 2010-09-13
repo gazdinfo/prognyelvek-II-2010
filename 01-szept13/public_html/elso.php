@@ -71,8 +71,21 @@
   // var_dump fuggveny
   $d = 42;
   var_dump($d); // ez kiirja a typust, de nem alkalmas vizsgalatokra, mert stringet ad vissza
+  print "<br />"; // sortores beillesztese
   
   // is_* fuggvenyek
   print is_int($d); // ezzel meg lehet viysgalni, hogy egy valtozo integer-e, ugyan ez: is_bool, is_string, stbstb.
+  print "<br />"; // sortores beillesztese
+  
+  // if szerkezet
+  if (is_int($d)) {
+    // igaz ag
+    print "Integer";
+  } else {
+    // hamis ag
+    print "Nem integer";
+  }
+  
+  print "<br />"; // sortores beillesztese
   
 ?>
