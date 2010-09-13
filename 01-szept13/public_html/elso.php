@@ -111,4 +111,12 @@
   $d == 4; // ertek vizsgalat
   $d === 4; // ertek es tipus viysgalat
   
+  // Logikai muveletek
+  
+  $e = 3425;
+  // paros-e, es oszthato-e 3-mal, es nagyobb-e 500-nal
+  if ($e%2==0 && $e%3==0 && $e>500) {
+    print "Paros, oszthato harommal, es nagyobb otszaznal.";
+  }
+  
 ?>
