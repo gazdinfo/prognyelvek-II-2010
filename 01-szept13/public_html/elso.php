@@ -94,7 +94,16 @@
   // tipuskonverziok
   $a = 10;
   settype($a, "string"); // $a most mar string
-  $b = settype($a, "double"); // $b most $a, double-va alakitva
+  $b = settype($a, "double"); // $b most $a, 
   
+  // Feladat: paros vagy paratlan?
+  $c = 16;
+  if ($c % 2) {
+    print "paratlan";
+  } else {
+    print "paratos";
+  }
+  
+  print "<br />"; // sortores beillesztese
   
 ?>
