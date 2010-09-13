@@ -78,14 +78,23 @@
   print "<br />"; // sortores beillesztese
   
   // if szerkezet
+  $d = 3.3;
   if (is_int($d)) {
     // igaz ag
     print "Integer";
   } else {
     // hamis ag
-    print "Nem integer";
+    // tipuskonverzio
+    settype($a, "int");
+    print "Nem volt integer, most mar az!";
   }
   
   print "<br />"; // sortores beillesztese
+  
+  // tipuskonverziok
+  $a = 10;
+  settype($a, "string"); // $a most mar string
+  $b = settype($a, "double"); // $b most $a, double-va alakitva
+  
   
 ?>
