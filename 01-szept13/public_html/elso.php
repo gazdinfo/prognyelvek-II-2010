@@ -106,4 +106,9 @@
   
   print "<br />"; // sortores beillesztese
   
+  // Egyenlosegjelek
+  $d = 4; // ertekadas
+  $d == 4; // ertek vizsgalat
+  $d === 4; // ertek es tipus viysgalat
+  
 ?>
