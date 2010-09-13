@@ -12,5 +12,5 @@
    blokk kommentezese
   */
   
-  print "Hello Vilag!"; // zarojel elhagyhato, igy is mukodik
+  echo "Hello Vilag!"; // print helyett echo
 ?>
